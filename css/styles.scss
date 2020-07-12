@@ -1,18 +1,46 @@
+
+$color-one: #d16ba5;
+$color-two: #c777b9;
+$color-three: #ba83ca;
+$color-four: #aa8fd8;
+$color-five: #9a9ae1;
+$color-six: #8aa7ec;
+$color-seven: #79b3f4;
+$color-eight: #69bff8;
+$color-nine: #52cffe;
+$color-ten: #41dfff;
+$color-eleven: #46eefa;
+$color-twelve: #5ffbf1;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
 .jumbotron {
-    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to right bottom, $color-one, $color-two, $color-three, $color-four, $color-five, $color-six, $color-seven, $color-eight, $color-nine, $color-ten, $color-eleven, $color-twelve);
     margin-bottom: 0;
 }
+
+.jumbotron {
+    img {
+        border: solid 1px black;
+    }
+}
+
 .navbar {
-    background-color: #ba83ca;
+    background-color: $color-three;
     margin-bottom: 10px;
  }
 
+ #donateModal {
+     .modal-header {
+        background-color: $color-one;
+     }
+ }
+
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color:$color-black-transparent; 
 }
   
 .carousel {
-    border: solid #8aa7ec;
+    border: solid $color-six;
     margin-bottom: 100px; 
 }
   
