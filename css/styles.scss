@@ -41,11 +41,19 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
   
 .carousel {
     border: solid $color-six;
-    margin-bottom: 100px; 
 }
   
 #carouselButton {
     position: absolute;
     right: 0;
     bottom: 0; 
+}
+
+.card-header{
+    color: $color-seven;
+    font-weight: bold;
+}
+
+.site-footer {
+    margin-top: 25px;
 }

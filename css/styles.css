@@ -16,10 +16,16 @@
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #8aa7ec;
-  margin-bottom: 100px; }
+  border: solid #8aa7ec; }
 
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+.card-header {
+  color: #79b3f4;
+  font-weight: bold; }
+
+.site-footer {
+  margin-top: 25px; }
